@@ -38,7 +38,7 @@ _You **can** combine them_
 
 ## Images
 
-![This is an alt text.](src/assets/test.jpg "When Chao Yang in th lab.")
+![This is an alt text.](public/assets/test.jpg "When Chao Yang in th lab.")
 
 ## Links
 

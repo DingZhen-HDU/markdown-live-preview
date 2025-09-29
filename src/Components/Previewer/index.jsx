@@ -5,7 +5,7 @@ import "highlight.js/styles/github.css";
 import DOMPurify from "dompurify";
 
 import "./index.scss";
-// import defaultText from "@/assets/defaultText";
+// import defaultText from "public/assets/defaultText";
 
 import { useSelector } from "react-redux";
 

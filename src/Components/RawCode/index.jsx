@@ -6,7 +6,7 @@ import { EditorView } from "@codemirror/view";
 import { markdown } from "@codemirror/lang-markdown";
 
 import "./index.scss";
-// import defaultText from "@/assets/defaultText";
+// import defaultText from "public/assets/defaultText";
 import { updateInput } from "@/store/modules/inputStore";
 
 const RawCode = React.forwardRef((props, ref) => {
