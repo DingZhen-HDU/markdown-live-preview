@@ -58,7 +58,10 @@ const Menu = () => {
         </ConfigProvider>
         <span>Sync Scroll</span>
       </div>
-      <a className="github menu-item">
+      <a
+        href="https://github.com/DingZhen-HDU/markdown-live-preview"
+        className="github menu-item"
+      >
         <img src="/assets/GitHub-Mark-Light-32px.webp" alt="" />
       </a>
     </div>
