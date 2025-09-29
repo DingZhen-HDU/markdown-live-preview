@@ -1,0 +1,99 @@
+.previewer {
+  padding: 0 30px;
+  // width: 100%;
+  height: 100%;
+  // max-height: 100%;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  //   Ubuntu, Cantarell, sans-serif;
+  // line-height: 1.6;
+  // color: #333;
+  // background-color: #fff;
+  // border-radius: 8px;
+  overflow: auto; /* 防止长代码块撑破容器 */
+  cursor: default;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0.8em 0;
+  }
+
+  ul,
+  ol {
+    margin: 0.8em 0;
+    padding-left: 20px;
+  }
+
+  blockquote {
+    border-left: 4px solid #ddd;
+    color: #666;
+    padding-left: 16px;
+    margin: 1em 0;
+    font-style: italic;
+  }
+
+  code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    background-color: #f3f4f6;
+    color: #e96900;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.95em;
+  }
+
+  pre {
+    margin: 1em 0;
+    padding: 12px;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    overflow: auto;
+    border: 1px solid #eaecef;
+  }
+
+  pre code {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .item {
+    height: 100%;
+  }
+}

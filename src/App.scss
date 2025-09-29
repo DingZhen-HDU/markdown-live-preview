@@ -1,0 +1,64 @@
+// src/index.scss
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
+  .menu {
+    // position: fixed;
+    // top: 0;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    // background-color: red;
+    // color: white;
+    // line-height: 200px;
+    font-size: 24px;
+    cursor: default;
+  }
+
+  .content {
+    display: flex;
+    flex: 1; // 占满剩余高度
+    gap: 20px;
+    padding: 20px;
+    // top: 200px;
+
+    .raw-code {
+      flex: 1;
+      // background-color: green;
+      // min-height: 100px;
+      max-height: calc(100vh - 60px - 20px - 20px);
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // color: white;
+      font-weight: bold;
+    }
+
+    .previewer {
+      flex: 1;
+      // background-color: blue;
+      // min-height: 100px;
+      max-height: calc(
+        100vh - 60px - 20px - 20px
+      ); // 总高度-菜单高度-gap-padding
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // color: white;
+      font-weight: bold;
+      // overflow: hidden;
+    }
+  }
+}

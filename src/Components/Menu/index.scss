@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  color: aliceblue;
+  background-color: black;
+  user-select: none; // 禁止文本选中
+  cursor: default;
+
+  .menu-item {
+    margin: 0 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .reset {
+    font-size: 16px;
+
+    &:hover {
+      color: #3c89e8;
+      cursor: pointer;
+    }
+  }
+
+  .sync-scroll {
+    font-size: 16px;
+
+    span {
+      margin: 0 5px;
+
+      &:hover {
+        color: #3c89e8;
+        cursor: pointer;
+      }
+    }
+  }
+  .github {
+    position: absolute;
+    right: 20px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
