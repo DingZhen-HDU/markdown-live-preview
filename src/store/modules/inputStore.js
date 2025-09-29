@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import defaultText from "public/assets/defaultText";
+import defaultText from "@/assets/defaultText.js";
 
 const inputStore = createSlice({
   name: "input",

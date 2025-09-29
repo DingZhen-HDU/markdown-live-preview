@@ -5,7 +5,7 @@ import { useState } from "react";
 import { updateSyncScrollIsActive } from "@/store/modules/currentHeightStore";
 import { updateInput } from "@/store/modules/inputStore";
 import "./index.scss";
-import defaultText from "public/assets/defaultText";
+import defaultText from "@/assets/defaultText";
 
 const Menu = () => {
   const dispatch = useDispatch();
@@ -59,7 +59,7 @@ const Menu = () => {
         <span>Sync Scroll</span>
       </div>
       <a className="github menu-item">
-        <img src="public/assets/GitHub-Mark-Light-32px.webp" alt="" />
+        <img src="/assets/GitHub-Mark-Light-32px.webp" alt="" />
       </a>
     </div>
   );
